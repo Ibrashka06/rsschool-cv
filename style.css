@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul, ol{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+  body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-width: 320px;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.5;
+  }
+  .container{
+    max-width: 1440px;
+    margin: 0 auto;
+  }
+  .nav-list{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  html{
+    scroll-behavior: smooth;
+  }
+  header{
+    background-color: rgb(136, 142, 233);
+  }
+  .nav-link {
+    padding: 0 20px;
+    line-height: 50px;
+    gap: 20px;
+    transition: .3s;
+  }
+.nav-item a:hover{
+    color: rgb(26, 37, 26);
+}
+.nav-item a{
+    color:antiquewhite;
+    font-family: 'Roboto', Courier, monospace;
+}
+.logo{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+.s-profile{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 80px;
+}
+.s-profile-title{
+    font-family:'Roboto', Courier, monospace;
+    color:rgb(37, 11, 61);
+}
+.section h2{
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    color:brown;
+}
+.s-main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 80px;
+}
+footer{
+    background-color: #361212b6;
+}
+.f-icon{
+    width: 121px;
+    height: 45px;
+    background-image: url("./assets/img/rs_school_js.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.footer-items{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
